@@ -1,0 +1,20 @@
+<BEGIN_SUMMARY>
+Release audit for MCPTEST-lgtm/toucan-sandbox
+
+- changelogCommitSha: 918fd6075cc07f7a5d284d4a812195de9efda6b0
+- releasesCount: 1
+- latestReleasePresent: true
+- latestReleaseTagName: v1.0.0
+- latestReleaseName: v1.0.0
+- latestReleaseBody: Initial sandbox release
+
+Full releasesList JSON (as returned by step 2):
+<JSON_RELEASES_LIST_START>
+[{"tag_name":"v1.0.0","target_commitish":"main","name":"v1.0.0","body":"Initial sandbox release","draft":false,"prerelease":false,"id":263053967,"created_at":"2025-11-17T17:56:44Z","published_at":"2025-11-17T17:57:22Z","url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967","html_url":"https://github.com/MCPTEST-lgtm/toucan-sandbox/releases/tag/v1.0.0","assets_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967/assets","upload_url":"https://uploads.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967/assets{?name,label}","zipball_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/tarball/v1.0.0","author":{"login":"MCPTEST-lgtm","id":232224428,"node_id":"U_kgDODdd2rA","avatar_url":"https://avatars.githubusercontent.com/u/232224428?v=4","html_url":"https://github.com/MCPTEST-lgtm","gravatar_id":"","type":"User","site_admin":false,"url":"https://api.github.com/users/MCPTEST-lgtm","events_url":"https://api.github.com/users/MCPTEST-lgtm/events{/privacy}","following_url":"https://api.github.com/users/MCPTEST-lgtm/following{/other_user}","followers_url":"https://api.github.com/users/MCPTEST-lgtm/followers","gists_url":"https://api.github.com/users/MCPTEST-lgtm/gists{/gist_id}","organizations_url":"https://api.github.com/users/MCPTEST-lgtm/orgs","received_events_url":"https://api.github.com/users/MCPTEST-lgtm/received_events","repos_url":"https://api.github.com/users/MCPTEST-lgtm/repos","starred_url":"https://api.github.com/users/MCPTEST-lgtm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MCPTEST-lgtm/subscriptions"},"node_id":"RE_kwDOQXkTT84PreKP","immutable":false}]
+<JSON_RELEASES_LIST_END>
+
+Full latestRelease JSON (as returned by step 3):
+<JSON_LATEST_RELEASE_START>
+{"tag_name":"v1.0.0","target_commitish":"main","name":"v1.0.0","body":"Initial sandbox release","draft":false,"prerelease":false,"id":263053967,"created_at":"2025-11-17T17:56:44Z","published_at":"2025-11-17T17:57:22Z","url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967","html_url":"https://github.com/MCPTEST-lgtm/toucan-sandbox/releases/tag/v1.0.0","assets_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967/assets","upload_url":"https://uploads.github.com/repos/MCPTEST-lgtm/toucan-sandbox/releases/263053967/assets{?name,label}","zipball_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/zipball/v1.0.0","tarball_url":"https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/tarball/v1.0.0","author":{"login":"MCPTEST-lgtm","id":232224428,"node_id":"U_kgDODdd2rA","avatar_url":"https://avatars.githubusercontent.com/u/232224428?v=4","html_url":"https://github.com/MCPTEST-lgtm","gravatar_id":"","type":"User","site_admin":false,"url":"https://api.github.com/users/MCPTEST-lgtm","events_url":"https://api.github.com/users/MCPTEST-lgtm/events{/privacy}","following_url":"https://api.github.com/users/MCPTEST-lgtm/following{/other_user}","followers_url":"https://api.github.com/users/MCPTEST-lgtm/followers","gists_url":"https://api.github.com/users/MCPTEST-lgtm/gists{/gist_id}","organizations_url":"https://api.github.com/users/MCPTEST-lgtm/orgs","received_events_url":"https://api.github.com/users/MCPTEST-lgtm/received_events","repos_url":"https://api.github.com/users/MCPTEST-lgtm/repos","starred_url":"https://api.github.com/users/MCPTEST-lgtm/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/MCPTEST-lgtm/subscriptions"},"node_id":"RE_kwDOQXkTT84PreKP","immutable":false}
+<JSON_LATEST_RELEASE_END>
+<END_SUMMARY>
