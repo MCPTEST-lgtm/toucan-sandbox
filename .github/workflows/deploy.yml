@@ -1,0 +1,22 @@
+name: Deploy
+
+on:
+ push:
+ branches: [ main ]
+
+jobs:
+ deploy:
+ runs-on: ubuntu-latest
+ steps:
+ - name: Checkout
+ uses: actions/checkout@v3
+
+ - name: Set DEPLOY_ENV
+ # Ensure CI provides an explicit environment target used by deploy scripts
+ run: echo "DEPLOY_ENV=production" >> $GITHUB_ENV
+
+ - name: Deploy
+ run: |
+ echo "Starting deploy to $DEPLOY_ENV"
+ # placeholder for real deploy commands
+ echo "Simulated deploy complete"
