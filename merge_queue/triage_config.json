@@ -1,0 +1,10 @@
+{
+ "triageDate": "2025-11-18",
+ "scenario": "MERGE_QUEUE_TRIAGE",
+ "ownerRepo": "MCPTEST-lgtm/toucan-sandbox",
+ "defaultPriorityRules": [
+ { "rule": "failing_ci", "priority": "P0" },
+ { "rule": "high_impact_label", "priority": "P0" },
+ { "rule": "requested_by_team_lead", "priority": "P1" }
+ ]
+}
