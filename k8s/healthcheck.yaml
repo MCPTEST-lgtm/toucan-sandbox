@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: toucan-sandbox-app
+spec:
+ containers:
+ - name: app
+ image: ghcr.io/MCPTEST-lgtm/toucan-sandbox:latest
+ ports:
+ - containerPort: 8080
+ livenessProbe:
+ httpGet:
+ path: /healthz
+ port: 8080
+ initialDelaySeconds: 10
+ periodSeconds: 10
+ readinessProbe:
+ httpGet:
+ path: /ready
+ port: 8080
+ initialDelaySeconds: 5
+ periodSeconds: 5
