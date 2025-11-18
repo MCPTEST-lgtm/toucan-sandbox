@@ -1,0 +1,32 @@
+name: "CI Validate Artifacts (HOTFIX)"
+
+on:
+ push:
+ branches: [ "hotfix/payments-ci-validate-2025-11-18" ]
+
+jobs:
+ validate:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v3
+ - name: Ensure build directory exists
+ run: |
+ if [ ! -d build ]; then
+ echo "Missing build/ directory" >&2
+ exit 1
+ fi
+ - name: Check for payments artifact
+ run: |
+ if [ ! -f build/payments-service.tar.gz ]; then
+ echo "Missing artifact: build/payments-service.tar.gz" >&2
+ exit 1
+ fi
+ - name: Check for checksum file
+ run: |
+ if [ ! -f build/payments-service.sha256 ]; then
+ echo "Missing checksum: build/payments-service.sha256" >&2
+ exit 1
+ fi
+ - name: Verify SHA256 checksum
+ run: |
+ sha256sum -c build/payments-service.sha256
