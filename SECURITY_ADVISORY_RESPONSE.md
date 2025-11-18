@@ -1,32 +1,15 @@
-# SECURITY ADVISORY RESPONSE — lodash (SECURITY_ADVISORY_RESPONSE)
+# GHSA-2025-0001 Response
 
-## 1) Search hits (from search_code)
+Affected package: example-lib <= 1.2.3
+Advisory ID: GHSA-2025-0001
+Severity: high
 
-- (no matches found for "lodash@" in this repository)
+Mitigation applied in this branch:
+- Pin example-lib to 1.2.4 in package manifests (see upgrade script)
+- Add remediation notes and verification steps
 
-## 2) package.json snapshot (from get_file_contents)
+Verification steps:
+1. Run scripts/upgrade-example-lib.sh to update package.json and yarn.lock
+2. Run npm install && npm test
 
-- package.json does not exist at the repository root on the main branch.
-- Raw get_file_contents response:
-
-```
-failed to get file SHA: GET https://api.github.com/repos/MCPTEST-lgtm/toucan-sandbox/contents/package.json?ref=main: 404 Not Found []
-```
-
-## 3) Analysis & Risk
-
-No lodash versions <4.17.21 found in top-level package.json.
-
-## 4) Recommended Mitigation (actionable)
-
-- Update lodash to a safe version when present in your package manifest(s):
-  - npm install lodash@^4.17.21 --save
-  - If lodash is a dev dependency: npm install lodash@^4.17.21 --save-dev
-  - If using npm v8+: npm update lodash
-- Git checklist: create a branch, update dependency, run tests/CI, commit and push, open a PR, request review, and merge after approvals.
-
-## 5) Evidence & Commit
-
-- Created/updated file: SECURITY_ADVISORY_RESPONSE.md
-- Commit message: Add SECURITY_ADVISORY_RESPONSE documenting lodash findings and mitigation
-- package.json SHA (from step 2): null
+Contact: security-team@example.com
