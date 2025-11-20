@@ -1,0 +1,49 @@
+name: Release Verification
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  verify_artifacts:
+    name: Verify release artifacts checksums
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python (for tooling if needed)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Retrieve release assets (example)
+        run: |
+          mkdir -p dist
+          echo "This step should download or produce tarballs into dist/"
+          # Replace with real artifact retrieval or build steps as applicable
+
+      - name: Generate checksums
+        run: |
+          set -euo pipefail
+          if compgen -G "dist/*.tar.gz" > /dev/null; then
+            for f in dist/*.tar.gz; do
+              sha256sum "$f" >> dist/sha256sum.txt
+            done
+          else
+            echo "No artifacts found in dist/*.tar.gz" >&2
+            exit 1
+          fi
+
+      - name: Verify checksums
+        run: |
+          set -euo pipefail
+          cd dist
+          # Expect a reference checksum file provided alongside artifacts, e.g., sha256sum.txt.orig
+          if [ ! -f sha256sum.txt.orig ]; then
+            echo "Missing reference checksum file: sha256sum.txt.orig" >&2
+            exit 1
+          fi
+          # Compare generated checksums against the reference file and fail on mismatch
+          sha256sum -c sha256sum.txt.orig
