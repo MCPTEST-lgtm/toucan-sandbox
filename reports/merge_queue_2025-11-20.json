@@ -1,0 +1,28 @@
+{
+  "snapshot_date": "2025-11-20",
+  "repository": "MCPTEST-lgtm/toucan-sandbox",
+  "open_prs": [
+    {
+      "number": 14,
+      "title": "Refactor payment utils",
+      "author": "alex-doe",
+      "requested_reviewers": ["sam-lee"],
+      "ci_status": "pending"
+    },
+    {
+      "number": 17,
+      "title": "Docs cleanup and lint fixes",
+      "author": "kim-nguyen",
+      "requested_reviewers": ["docs-bot", "terry-j"],
+      "ci_status": "success"
+    },
+    {
+      "number": 23,
+      "title": "Stabilize flaky tests for checkout flow",
+      "author": "jordan-c",
+      "requested_reviewers": ["sam-lee", "qa-team"],
+      "ci_status": "failed"
+    }
+  ],
+  "notes": "Deterministic ordering by PR number ascending. CI status summarized as success/failed/pending based on latest workflow outcome."
+}
