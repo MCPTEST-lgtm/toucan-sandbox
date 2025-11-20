@@ -1,0 +1,1 @@
+{"date":"2025-11-20","queue_size":17,"oldest_pr":"PR-482","median_wait_hours":26,"blocked_prs":["PR-497","PR-503"],"needs_reviewers":[{"pr":"PR-510","requested":["@alice","@devx"]}],"failing_ci":["PR-499"],"ready_to_merge":["PR-488","PR-492","PR-506"]}
