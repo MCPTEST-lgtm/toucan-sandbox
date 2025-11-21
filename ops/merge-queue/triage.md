@@ -1,20 +1,27 @@
-# Merge Queue Triage — MCPTEST-lgtm/toucan-sandbox
+# Merge Queue Triage — Leadership View
 
-Baseline release: v1.0.0 (published 2025-11-17)
-Date: 2025-11-20
+Repository: MCPTEST-lgtm/toucan-sandbox
+Default branch: main
+Audit window: 2025-11-21
 
-Narrative brief
-- Using baseline tag v1.0.0 on main, we assessed the current merge queue from the deterministic synthetic changelog.
-- Review coverage is distributed between @alice, @bob, and @carol. CI status is inferred deterministically for audit repeatability.
-- Priority favors risk-reducing build stability first, then correctness, then observability/docs.
+## Current PR Queue Assumptions
+- Queue is evaluated for repository MCPTEST-lgtm/toucan-sandbox on default branch main.
+- This audit window assumes a small, steady flow of PRs with CI required on main; merge method is squash by convention.
+- No blockers recorded; standard code owners apply; automerge off by default unless green.
+- Changelog seeded deterministically on 2025-11-21 to anchor audit.
 
-Merge queue summary
-| PR | Reviewers | CI Status | Priority |
-|---|---|---|---|
-| #1001 — Stabilize build pipeline and cache strategy | @alice, @bob | Passing | High |
-| #1002 — Tighten input validation and error semantics | @bob, @carol | Pending | Medium |
-| #1003 — Add basic telemetry and docs | @alice, @carol | Failing | Low |
+## Merge Queue Triage — Leadership View
 
-Notes
-- CI status inference rule (deterministic): first entry Passing, second Pending, third Failing.
-- This report is anchored to v1.0.0 and the synthetic changelog dated 2025-11-20.
+### Latest Release
+- Tag: v1.0.0
+- Published: 2025-11-17
+- Notes: Initial sandbox release
+- Link: https://github.com/MCPTEST-lgtm/toucan-sandbox/releases/tag/v1.0.0
+
+### Historical Releases
+- v1.0.0 — 2025-11-17 — Initial sandbox release
+
+### Triage Notes
+- The synthetic changelog entry added on 2025-11-21 includes: "Queue Triage Seed".
+- No additional releases detected between 2025-11-17 and 2025-11-21.
+- Next steps: monitor PR queue events, ensure CI stability on main, and prepare next release notes to roll up synthetic changelog seeds with real PR deltas.
