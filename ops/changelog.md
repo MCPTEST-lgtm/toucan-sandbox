@@ -1,7 +1,3 @@
-# Ops Changelog (Synthetic)
-
-Repository: MCPTEST-lgtm/toucan-sandbox
-Default branch: main
-
-Date: 2025-11-21
-- Queue Triage Seed
+## 2025-11-21
+- Fix: revert flaky healthcheck in /deploy/helm/values.yaml
+- Gate: CI green on main
