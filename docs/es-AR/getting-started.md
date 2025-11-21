@@ -1,0 +1,1 @@
+Guía de inicio rápido para Q4 2025: instalación, configuración y primeros pasos.
