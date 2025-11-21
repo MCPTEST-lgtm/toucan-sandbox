@@ -1,0 +1,1 @@
+{"blocker_id":"DB-4872","status":"resolved","evidence":{"issue":"https://github.com/MCPTEST-lgtm/toucan-sandbox/issues/142","pr":"https://github.com/MCPTEST-lgtm/toucan-sandbox/pull/233","commits":["b7c9f1a","3e4d2c9"]},"pipeline":{"name":"prod-deploy","run_id":"deploy-2025-11-21-1520","result":"green"}}
