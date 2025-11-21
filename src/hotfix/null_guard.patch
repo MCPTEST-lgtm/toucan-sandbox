@@ -1,0 +1,5 @@
+---
+fix: add null guard to request handler
+
+* check req.user is defined before access
+* log warn on missing user
