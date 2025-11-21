@@ -1,0 +1,13 @@
+{
+  "repo": "MCPTEST-lgtm/toucan-sandbox",
+  "ghsas": [
+    "GHSA-lodash-2025-01",
+    "GHSA-minimist-2025-02"
+  ],
+  "remediation": {
+    "lodash": "4.17.21",
+    "minimist": "1.2.8"
+  },
+  "owner": "security@mcptest-lgtm.local",
+  "as_of": "2025-11-21T09:00:00Z"
+}
