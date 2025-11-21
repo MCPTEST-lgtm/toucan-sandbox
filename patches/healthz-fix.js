@@ -1,0 +1,1 @@
+module.exports = (req,res)=>res.status(200).json({status:"ok", ts:"2025-11-21T09:00:00Z"})
