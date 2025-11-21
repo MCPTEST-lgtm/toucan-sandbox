@@ -1,0 +1,7 @@
+{
+ "name": "toucan-sandbox",
+ "version": "0.1.0",
+ "dependencies": {
+ "vulnerable-lib": "1.2.4"
+ }
+}
