@@ -1,0 +1,7 @@
+{
+  "blocker_id": "WB-482",
+  "resolved_commit": "abc123def",
+  "verification_run": "2025-11-21T09:00:00Z",
+  "checks": ["/health/webhook 200", "/metrics webhook_errors=0"],
+  "related_prs": ["#128"]
+}
