@@ -1,0 +1,1 @@
+{"period":"2025-11-18_to_2025-11-24","new_contributors":7,"first_prs_opened":9,"first_prs_merged":6,"median_time_to_first_review_hours":14,"stuck_prs":[{"pr":182,"author":"@dev-ari","age_days":3},{"pr":185,"author":"@newbie-lin","age_days":2}],"onboarding_notes":"Common blocker: missing CLA step; add clearer docs link in PR template."}
