@@ -1,0 +1,1 @@
+{"scan_date":"2025-11-23","tool":"osv-scanner","ecosystems":["npm","pip"],"vulnerable_packages":[{"name":"lodash","version":"4.17.15","cve":"CVE-2020-8203","severity":"high","status":"unresolved"},{"name":"urllib3","version":"1.25.8","cve":"CVE-2020-26137","severity":"medium","status":"in-progress"}],"owner":"security@toucan.example","next_review":"2025-11-30"}
