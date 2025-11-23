@@ -1,0 +1,18 @@
+{
+  "scanned_paths": [],
+  "dependencies_by_ecosystem": {
+    "npm": [],
+    "pip": [],
+    "cargo": []
+  },
+  "version_drift": {
+    "npm": [],
+    "pip": [],
+    "cargo": []
+  },
+  "unpinned_entries": {
+    "npm": [],
+    "pip": [],
+    "cargo": []
+  }
+}
