@@ -1,0 +1,30 @@
+[
+  {
+    "package": "lodash",
+    "version": "4.17.21",
+    "first_seen_date": "2025-11-03",
+    "before_latest_release": true,
+    "remediation_status": "pending"
+  },
+  {
+    "package": "express",
+    "version": "4.19.2",
+    "first_seen_date": "2025-11-10",
+    "before_latest_release": true,
+    "remediation_status": "pending"
+  },
+  {
+    "package": "axios",
+    "version": "1.7.4",
+    "first_seen_date": "2025-11-18",
+    "before_latest_release": false,
+    "remediation_status": "pending"
+  },
+  {
+    "package": "moment",
+    "version": "2.29.4",
+    "first_seen_date": "2025-11-22",
+    "before_latest_release": false,
+    "remediation_status": "pending"
+  }
+]
