@@ -1,0 +1,1 @@
+Contributor onboarding analysis for Q4 2025 (first-time PRs, review latency, comment-to-merge ratio).

@@ -1,0 +1,1 @@
+We will flag idle reviews greater than 48 hours and PRs lacking maintainer assignment to identify onboarding bottlenecks.
