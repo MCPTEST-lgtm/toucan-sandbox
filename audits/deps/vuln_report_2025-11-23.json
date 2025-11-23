@@ -1,0 +1,8 @@
+{
+  "repo": "MCPTEST-lgtm/toucan-sandbox",
+  "base_branch": "main",
+  "scanned_paths": ["package.json", "package-lock.json", "requirements.txt"],
+  "detected_vulns": [],
+  "remediation_plan": "No critical findings; re-scan in 7 days",
+  "timestamp": "2025-11-23T00:00:00Z"
+}
