@@ -1,0 +1,1 @@
+{"period_start":"2025-11-10","period_end":"2025-11-16","prs_analyzed":42,"median_time_to_first_review_hours":3.8,"median_time_to_merge_hours":27.4,"reviewer_distribution":{"alice":12,"bob":9,"carol":8,"dave":7,"eve":6},"bottlenecks":["after-hours approvals","cross-team reviews"]}
