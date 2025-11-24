@@ -1,0 +1,11 @@
+{
+  "tag": "v2.0.1-hotfix",
+  "files_scanned": [
+    "CHANGELOG.md",
+    ".github/workflows/release.yml",
+    "src/**/patch/**"
+  ],
+  "artifact_sha256": "",
+  "release_notes_excerpt": [],
+  "validation_status": "missing"
+}
