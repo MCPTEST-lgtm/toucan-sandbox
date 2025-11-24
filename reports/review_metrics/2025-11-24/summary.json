@@ -1,0 +1,14 @@
+{
+  "period_start": "2025-10-25",
+  "period_end": "2025-11-24",
+  "filter_label": "backend",
+  "reviewers": {
+    "alice": 4,
+    "bob": 3,
+    "carol": 2
+  },
+  "avg_time_to_first_review_hours": 6.8,
+  "median_time_to_merge_hours": 30.5,
+  "pr_sample_size": 9,
+  "notes": "One outlier PR (backend migration) took ~96 hours to receive the first review and ~168 hours to merge, skewing the mean; excluding it brings avg_time_to_first_review_hours to 4.2 and median_time_to_merge_hours to 26.0. Distribution suggests light imbalance (alice handling ~44% of reviews). Consider load-balancing during on-call rotations."
+}
