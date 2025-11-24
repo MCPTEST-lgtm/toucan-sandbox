@@ -1,9 +1,9 @@
 {
   "tag": "v2.0.1-hotfix",
   "files_scanned": [
-    "CHANGELOG.md",
-    ".github/workflows/release.yml",
-    "src/**/patch/**"
+    "CHANGELOG.md (retrieved)",
+    ".github/workflows/release.yml (not found on main)",
+    "src/**/patch/** (directory not present on main)"
   ],
   "artifact_sha256": "",
   "release_notes_excerpt": [],
