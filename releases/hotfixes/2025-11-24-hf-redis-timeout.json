@@ -1,0 +1,1 @@
+{"id":"2025-11-24-hf-redis-timeout","component":"api-gateway","version":"v2.3.7-hotfix1","commit":"b7f92a1","reason":"Increase Redis read timeout to mitigate connection stalls","risk":"low","checks":["unit:passed","smoke:passed","artifact:ghcr.io/mcptest-lgtm/api-gateway:v2.3.7-hotfix1"]}
