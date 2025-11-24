@@ -1,0 +1,27 @@
+{
+  "campaign": "BRANCH_CLEANUP_CAMPAIGN",
+  "repository": "MCPTEST-lgtm/toucan-sandbox",
+  "base_branch": "main",
+  "inputs": {
+    "search_paths": {
+      "refs_heads_pattern": "refs/heads/*",
+      "changelog_contains": "Merged PR #",
+      "maintenance_docs_glob": "docs/maintenance/*.md",
+      "maintenance_phrase": "branch retention"
+    },
+    "policies_checked": [
+      "CHANGELOG.md",
+      "docs/branch-policy.md",
+      ".github/dependabot.yml"
+    ]
+  },
+  "evidence": {
+    "search_hits": [],
+    "policies": {
+      "CHANGELOG.md": "present",
+      "docs/branch-policy.md": "missing",
+      ".github/dependabot.yml": "missing"
+    }
+  },
+  "branches": []
+}
