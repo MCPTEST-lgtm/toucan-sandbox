@@ -1,0 +1,16 @@
+[
+  {
+    "name": "feature/old-auth",
+    "last_commit_iso": "2024-06-18T13:42:00Z",
+    "status": "stale",
+    "recommended_action": "archive",
+    "note": "no activity in 12+ months"
+  },
+  {
+    "name": "bugfix/payment-race",
+    "last_commit_iso": "2025-02-03T09:15:22Z",
+    "status": "merged",
+    "recommended_action": "delete",
+    "note": "merged and branch not protected"
+  }
+]
