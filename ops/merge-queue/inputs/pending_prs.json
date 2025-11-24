@@ -1,0 +1,51 @@
+{
+  "generated_at": "2025-11-24T00:00:00Z",
+  "label": "merge-queue",
+  "default_branch": "main",
+  "pull_requests": [
+    {
+      "number": 134,
+      "title": "Refactor API gateway routing",
+      "author": "dev-a",
+      "labels": ["merge-queue"],
+      "reviewers": ["alice", "bob"],
+      "head": "feature/api-gateway-refactor",
+      "base": "main",
+      "updated_at": "2025-11-23T18:30:00Z",
+      "ci_status": "passed"
+    },
+    {
+      "number": 135,
+      "title": "Bump dependencies and resolve security alerts",
+      "author": "dev-b",
+      "labels": ["merge-queue", "needs-ci"],
+      "reviewers": ["bob"],
+      "head": "chore/bump-deps-2025-11",
+      "base": "main",
+      "updated_at": "2025-11-24T09:10:00Z",
+      "ci_status": "pending"
+    },
+    {
+      "number": 136,
+      "title": "Add rate limiting to public endpoints",
+      "author": "dev-c",
+      "labels": ["merge-queue"],
+      "reviewers": ["carol", "alice"],
+      "head": "feat/rate-limits",
+      "base": "main",
+      "updated_at": "2025-11-23T22:45:00Z",
+      "ci_status": "passed"
+    },
+    {
+      "number": 137,
+      "title": "Fix flaky integration tests",
+      "author": "dev-d",
+      "labels": ["merge-queue", "needs-ci"],
+      "reviewers": ["alice"],
+      "head": "fix/flaky-tests",
+      "base": "main",
+      "updated_at": "2025-11-24T10:05:00Z",
+      "ci_status": "failed"
+    }
+  ]
+}
