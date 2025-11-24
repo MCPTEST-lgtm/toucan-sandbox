@@ -1,0 +1,10 @@
+[
+  {"branch": "feature/i18n", "reason": "stale >90 days without updates"},
+  {"branch": "spike/lmdb-prototype", "reason": "stale >90 days without updates"},
+  {"branch": "release/2025-q2", "reason": "stale >90 days without updates"},
+  {"branch": "feature/payment-retries", "reason": "merged PR branch — safe to delete"},
+  {"branch": "bugfix/login-rate-limit", "reason": "merged PR branch — safe to delete"},
+  {"branch": "chore/update-ci", "reason": "merged PR branch — safe to delete"},
+  {"branch": "feature/abandoned-dashboard", "reason": "abandoned: no commits since 2025-08-24"},
+  {"branch": "experiment/new-cache", "reason": "abandoned: no commits since 2025-08-24"}
+]
