@@ -1,0 +1,1 @@
+{"handshakeTimeoutMs": 2500, "readTimeoutMs": 5000, "allowedCiphers": ["TLS_AES_256_GCM_SHA384","TLS_CHACHA20_POLY1305_SHA256"], "minVersion": "TLSv1.2"}
