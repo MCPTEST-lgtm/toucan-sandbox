@@ -1,0 +1,1 @@
+- Sincronización 2025-11-24: quickstart.md actualizado con títulos y enlaces.
