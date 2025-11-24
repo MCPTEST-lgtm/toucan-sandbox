@@ -1,9 +1,12 @@
-# Changelog
+# Q4 Queue Intake (2025-11-24)
 
-All notable changes to this project are documented here. This log is synthetic and deterministic for release automation testing.
+This changelog captures the deterministic sample dataset for merge-queue triage.
 
-## v0.3.0
-
-- 2025-02-10 feat: export CSV — Add CSV export capability for datasets and reports to improve data portability.
-- 2025-02-12 fix: retry on 502 — Implement automatic retry logic for transient 502 Bad Gateway responses.
-- 2025-02-13 docs: add usage guide — Provide a step-by-step usage guide covering setup and common workflows.
+- Source label: merge-queue
+- Default branch: main
+- Dataset generated_at: 2025-11-24T00:00:00Z
+- Pull requests captured: 4
+  - #134 Refactor API gateway routing — reviewers: alice, bob — ci: passed
+  - #135 Bump dependencies and resolve security alerts — reviewers: bob — ci: pending — labels: needs-ci
+  - #136 Add rate limiting to public endpoints — reviewers: carol, alice — ci: passed
+  - #137 Fix flaky integration tests — reviewers: alice — ci: failed — labels: needs-ci
