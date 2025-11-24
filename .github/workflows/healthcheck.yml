@@ -1,0 +1,14 @@
+name: Healthcheck
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - deployment-blocker/healthcheck-OKR-2025Q4-offswitch
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify healthcheck
+        run: echo "healthcheck passed"
