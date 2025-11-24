@@ -1,0 +1,60 @@
+{
+  "generated_at": "2025-11-24T00:00:00Z",
+  "source": "DEPENDENCY_VULNERABILITY_SCAN",
+  "scope": "runtime-and-dev",
+  "packages": [
+    {
+      "name": "openssl",
+      "ecosystem": "system",
+      "version": "1.1.1u",
+      "cves": ["CVE-2023-0286", "CVE-2023-2650"],
+      "severity": "high",
+      "status": "affected"
+    },
+    {
+      "name": "log4j-core",
+      "ecosystem": "maven",
+      "version": "2.14.1",
+      "cves": ["CVE-2021-44228", "CVE-2021-45046"],
+      "severity": "critical",
+      "status": "affected"
+    },
+    {
+      "name": "urllib3",
+      "ecosystem": "pypi",
+      "version": "1.26.5",
+      "cves": ["CVE-2021-33503"],
+      "severity": "medium",
+      "status": "affected"
+    },
+    {
+      "name": "lodash",
+      "ecosystem": "npm",
+      "version": "4.17.19",
+      "cves": ["CVE-2020-8203"],
+      "severity": "high",
+      "status": "affected"
+    },
+    {
+      "name": "jackson-databind",
+      "ecosystem": "maven",
+      "version": "2.9.10",
+      "cves": ["CVE-2020-36518"],
+      "severity": "high",
+      "status": "affected"
+    },
+    {
+      "name": "ffi",
+      "ecosystem": "rubygems",
+      "version": "1.15.0",
+      "cves": ["CVE-2022-23806"],
+      "severity": "high",
+      "status": "affected"
+    }
+  ],
+  "policy": {
+    "risk_acceptance": [],
+    "exceptions": []
+  },
+  "deterministic": true
+}
