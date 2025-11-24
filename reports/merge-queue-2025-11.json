@@ -1,0 +1,14 @@
+[
+  {"number": 120, "title": "Hotfix: Null guard for request handler (2025-11-21)", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 1},
+  {"number": 135, "title": "HOTFIX: Log4j CVE-2025-0001 patch notes", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 2},
+  {"number": 136, "title": "Hotfix: force HTTPS in production", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 3},
+  {"number": 137, "title": "Hotfix: reduce default timeout to 45s (2025-11-21)", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 4},
+  {"number": 138, "title": "GHSA Response: lodash and OpenSSL upgrades (2025-11-21)", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 5},
+  {"number": 218, "title": "Document mitigation for GHSA-2025-0420", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 6},
+  {"number": 197, "title": "Dependency Risk Register — 2025‑11‑23", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 7},
+  {"number": 83, "title": "Merge Queue Triage — 2025-11-20", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 8},
+  {"number": 139, "title": "Daily Merge Queue Snapshot — 2025-11-21", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 9},
+  {"number": 171, "title": "Onboarding metrics pack (Q4 2025)", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 10},
+  {"number": 196, "title": "Onboarding Metrics Report: 2025-11-23", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 11},
+  {"number": 220, "title": "Sync zh-CN docs with upstream (2025-11)", "size_category": "unknown", "requested_reviewers": [], "ci_status": "unknown", "priority_rank": 12}
+]
