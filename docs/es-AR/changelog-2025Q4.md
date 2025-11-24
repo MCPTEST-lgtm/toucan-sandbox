@@ -1,0 +1,1 @@
+Cambios clave: nuevo flujo de inicio de sesión, mejoras de rendimiento en sincronización.
