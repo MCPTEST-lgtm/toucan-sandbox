@@ -1,0 +1,12 @@
+[
+  {"number":14, "title":"Add CONTRIBUTING.md and link from README", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":17, "title":"docs: add SECURITY_CREDENTIALS.md — credential storage and rotation guidance", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":34, "title":"SECURITY: Mitigate GHSA-xxxx — bump vulnerable-lib to 1.2.4", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":35, "title":"HOTFIX_RELEASE: critical config patch and CI validation (hotfix/2025-11-18-critical-config)", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":36, "title":"DOCS: Add French & Spanish README translations (DOCS_LOCALIZATION)", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":37, "title":"DEPLOYMENT_BLOCKER: set DEPLOY_ENV in CI deploy workflow", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":38, "title":"HOTFIX: SECURITY.md emergency mitigation note (2025-11-18)", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":39, "title":"MERGE_QUEUE_TRIAGE: Add triage policy and initial 2025-11-18 report", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":40, "title":"DOC: Document resolution for deployment blocker #101", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3},
+  {"number":41, "title":"[DOCS_LOCALIZATION] Add French localized docs fragment (2025-11-18)", "author":"MCPTEST-lgtm", "reviewers":[], "ci_status":"unknown", "days_waiting":3}
+]
