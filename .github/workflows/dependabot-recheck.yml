@@ -1,0 +1,12 @@
+name: Dependabot Weekly Re-check for GHSA-2025-001
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stub dependency re-check
+        run: echo "Re-check dependencies for GHSA-2025-001"
