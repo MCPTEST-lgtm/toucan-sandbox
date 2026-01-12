@@ -1,0 +1,1 @@
+2025-11-24: Sincronizados títulos y secciones faltantes en es/* desde main; verificación de enlaces completada.
