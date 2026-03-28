@@ -1,0 +1,12 @@
+{
+  "period_start": "2025-10-24",
+  "period_end": "2025-11-23",
+  "repo": "MCPTEST-lgtm/toucan-sandbox",
+  "summary": {
+    "total_prs_opened_by_first_time_contributors": 0,
+    "avg_time_to_first_review_hours": 0,
+    "avg_comments_per_pr": 0,
+    "percent_prs_requiring_changes": 0
+  },
+  "breakdown_by_contributor": {}
+}
